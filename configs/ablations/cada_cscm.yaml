@@ -1,0 +1,5 @@
+name: cada_cscm
+trainer: ours_framework.ablation_75_78_trainers:CADACSCMTrainer
+uses_cada: true
+supported_datasets: [visdrone]
+variant_parameters: {CADA_VARIANT: one_to_few, CADA_V2_DYNAMIC_VARIANT: full}

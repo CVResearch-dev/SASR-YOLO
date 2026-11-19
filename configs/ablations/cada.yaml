@@ -1,0 +1,5 @@
+name: cada
+trainer: ours_framework.cada_v2:CADAV2Trainer
+uses_cada: true
+supported_datasets: [visdrone, uavdt]
+variant_parameters: {CADA_VARIANT: one_to_few, CADA_V2_DYNAMIC_VARIANT: full}

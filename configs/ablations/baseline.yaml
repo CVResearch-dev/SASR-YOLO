@@ -1,0 +1,5 @@
+name: baseline
+trainer: ultralytics.models.yolo.detect.train:DetectionTrainer
+uses_cada: false
+supported_datasets: [visdrone, uavdt]
+variant_parameters: {CADA_VARIANT: 'off', CADA_V2_DYNAMIC_VARIANT: 'off'}

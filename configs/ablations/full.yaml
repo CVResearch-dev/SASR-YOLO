@@ -1,0 +1,7 @@
+name: full
+trainer: ours_framework.cscm_daneck_cada_v2_formal:CSCMV1FormalTrainer
+trainer_overrides:
+  uavdt: ours_framework.uavdt_cscm_trainer:UAVDTCSCMV1FormalTrainer
+uses_cada: true
+supported_datasets: [visdrone, uavdt]
+variant_parameters: {CADA_VARIANT: one_to_few, CADA_V2_DYNAMIC_VARIANT: full}

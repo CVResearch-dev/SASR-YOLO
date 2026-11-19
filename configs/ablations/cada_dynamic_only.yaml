@@ -1,0 +1,6 @@
+# Controlled mechanism configuration; no classification-target reweighting.
+name: cada_dynamic_only
+trainer: ours_framework.cada_v2:CADAV2Trainer
+uses_cada: true
+supported_datasets: [visdrone]
+variant_parameters: {CADA_VARIANT: 'off', CADA_V2_DYNAMIC_VARIANT: full}

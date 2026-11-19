@@ -1,0 +1,10 @@
+# PRE-ACCEPTANCE PLACEHOLDERS. Non-numeric mechanism names are retained.
+soft_topk: 0
+quality_gamma: 0
+soft_weight_floor: 0
+level_count: 0
+dynamic_topk_min: 0
+dynamic_topk_max: 0
+fixed_topk: 0
+tal_alpha: 0
+tal_beta: 0

@@ -1,0 +1,5 @@
+name: cada_daneck_p2
+trainer: ours_framework.daneck_placement_ablation_trainer:DANeckP2CADAV2Trainer
+uses_cada: true
+supported_datasets: [visdrone]
+variant_parameters: {CADA_VARIANT: one_to_few, CADA_V2_DYNAMIC_VARIANT: full}

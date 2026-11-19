@@ -1,0 +1,23 @@
+# PRE-ACCEPTANCE PLACEHOLDERS. These are NOT real evaluation settings.
+visdrone:
+  imgsz: 0
+  conf: 0
+  iou: 0
+  max_det: 0
+  batch: 0
+  workers: 0
+  half: false
+  rect: false
+  augment: false
+  agnostic_nms: false
+uavdt:
+  imgsz: 0
+  conf: 0
+  iou: 0
+  max_det: 0
+  batch: 0
+  workers: 0
+  half: false
+  rect: false
+  augment: false
+  agnostic_nms: false

@@ -1,0 +1,5 @@
+name: cada_matchedconv
+trainer: ours_framework.daneck_matched_conv_control:MatchedConvCADAV2Trainer
+uses_cada: true
+supported_datasets: [visdrone]
+variant_parameters: {CADA_VARIANT: one_to_few, CADA_V2_DYNAMIC_VARIANT: full}

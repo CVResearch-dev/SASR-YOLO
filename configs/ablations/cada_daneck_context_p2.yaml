@@ -1,0 +1,5 @@
+name: cada_daneck_context_p2
+trainer: ours_framework.cscm_source_ablation_trainer:CSCMP2SourceTrainer
+uses_cada: true
+supported_datasets: [visdrone]
+variant_parameters: {CADA_VARIANT: one_to_few, CADA_V2_DYNAMIC_VARIANT: full}

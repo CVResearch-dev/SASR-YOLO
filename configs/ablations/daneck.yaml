@@ -1,0 +1,7 @@
+name: daneck
+trainer: ours_framework.ablation_75_78_trainers:DANeckOnlyTrainer
+trainer_overrides:
+  uavdt: ours_framework.uavdt_ablation_trainers:UAVDTDANeckOnlyTrainer
+uses_cada: false
+supported_datasets: [visdrone, uavdt]
+variant_parameters: {CADA_VARIANT: 'off', CADA_V2_DYNAMIC_VARIANT: 'off'}

@@ -1,0 +1,5 @@
+name: daneck_cscm
+trainer: ours_framework.ablation_75_78_trainers:DANeckCSCMTrainer
+uses_cada: false
+supported_datasets: [visdrone]
+variant_parameters: {CADA_VARIANT: 'off', CADA_V2_DYNAMIC_VARIANT: 'off'}

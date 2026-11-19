@@ -1,0 +1,5 @@
+name: cada_daneck
+trainer: ours_framework.daneck_cada_v2:DANeckCADAV2Trainer
+uses_cada: true
+supported_datasets: [visdrone]
+variant_parameters: {CADA_VARIANT: one_to_few, CADA_V2_DYNAMIC_VARIANT: full}

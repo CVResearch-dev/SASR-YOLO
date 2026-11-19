@@ -1,0 +1,5 @@
+name: cada_daneck_add
+trainer: ours_framework.cscm_fusion_control:CSCMAddTrainer
+uses_cada: true
+supported_datasets: [visdrone]
+variant_parameters: {CADA_VARIANT: one_to_few, CADA_V2_DYNAMIC_VARIANT: full}

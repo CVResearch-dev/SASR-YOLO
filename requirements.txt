@@ -1,0 +1,7 @@
+# Core versions recorded in the original no-annealing experiment protocol.
+# Select the PyTorch wheel/CUDA build appropriate for your platform yourself.
+torch==2.10.0
+torchvision==0.25.0
+ultralytics==8.4.26
+# Release configuration parser; its historical installed version was not saved.
+PyYAML>=6.0,<7
